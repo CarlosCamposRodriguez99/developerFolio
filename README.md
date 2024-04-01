@@ -40,7 +40,7 @@ Created something awesome for your fork of the portfolio and want to share it? F
 ✔️ Blogs\
 ✔️ Talks\
 ✔️ Podcast\
-✔️ Contact me\
+✔️ Contáctame\
 ✔️ Twitter Timeline\
 ✔️ GitHub Profile
 

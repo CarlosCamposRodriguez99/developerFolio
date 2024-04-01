@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "TheFields",
+  title: "¡Hola! ¿Estás buscando desarrollar tu Startup Digital?",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "Somos desarrolladores de software 🚀 con experiencia en la creación de aplicaciones web y móviles con JavaScript / Next.js / React.js / Node.js / React Native y algunos otros frameworks y lenguajes de programación"
+  ),// Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/CarlosCamposRodriguez99",
+  linkedin: "https://www.linkedin.com/in/carlos-campos-rodr%C3%ADguez-7045a6212/",
+  gmail: "jccamposrz@gmail.com",
+  whatsapp: "https://api.whatsapp.com/send?phone=523321235662&text=Hola%20Carlos!",
+
+  
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,15 +45,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Tecnologías",
+  subTitle: "Algunas tecnologías que usamos:",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Desarrollo de interfaces de usuario / front-end altamente interactivas para sus aplicaciones web y móviles"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Desarrollo de software personalizado"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integración de servicios de terceros como Firebase / Firestore / AWS / MongoDB / MySQL"
     )
   ],
 
@@ -89,8 +86,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
       skillName: "npm",
@@ -126,23 +123,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Emery Mark",
+      logo: require("./assets/images/emery.jpg"),
+      subHeader: "Desarrrollo de Software Personalizado y Aplicación Web",
+      duration: "Septiembre 2023 - Presente",
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Coffee Point",
+      logo: require("./assets/images/coffe.png"),
+      subHeader: "Desarrollo de Aplicación Móvil",
+      duration: "Febrero 2023 - Presente",
+    },
+    {
+      schoolName: "ICIAMEX",
+      logo: require("./assets/images/iciamex.png"),
+      subHeader: "Desarrollo de Página Web",
+      duration: "Enero 2024 - Presente",
     }
   ]
 };
@@ -158,11 +154,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +170,37 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Desarrollador Web",
+      company: "TypeScript",
+      companylogo: require("./assets/images/type.png"),
+      date: "Junio 2020 – Presente",
+      desc: "Desarrollo de aplicaciones utilizando TypeScript, un lenguaje de programación que mejora la seguridad y el mantenimiento del código. Mi experiencia incluye la creación de aplicaciones web y móviles de alto rendimiento, así como la implementación de soluciones robustas y escalables.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Desarrollo de Aplicaciones Web con React y TypeScript",
+        "Backend con Node.js y TypeScript"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "React Native",
+      company: "React",
+      companylogo: require("./assets/images/react.png"),
+      date: "Mayo 2020 – Presente",
+      desc: "Experiencia en la creación de componentes reutilizables en React es esencial. Esto implica la capacidad de diseñar y desarrollar componentes que sean flexibles, personalizables y que puedan ser fácilmente integrados en diferentes partes de una aplicación. La reutilización de componentes ayuda a mantener un código limpio y facilita el mantenimiento a lo largo del tiempo.",
+      descBullets: [
+        "Gestión de Estados con React (por ejemplo, Redux o Context API)",
+        "Optimización de Rendimiento en Aplicaciones React"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Git",
+      company: "Git",
+      companylogo: require("./assets/images/git.png"),
+      date: "Enero 2020 – Presente",
+      desc: "Competente en la gestión de versiones con Git implica saber cómo utilizar Git para controlar el historial de cambios de tu código, realizar seguimiento de revisiones, trabajar con ramas y fusionar cambios de manera eficiente. Esto es fundamental para colaborar en proyectos de desarrollo y mantener un control preciso del código fuente.",
+      descBullets: [
+        "Gestión de control de versiones con Git",
+        "Resolución de Conflictos en Git"
+      ]
     }
   ]
 };
@@ -212,32 +216,54 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Proyectos",
+  subtitle: "Algunas startups y aplicaciones que hemos desarrollado",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/house.svg").default,
+      projectName: "Startup Real Estate",
+      projectDesc: "Página web para industría del sector inmobiliario, ideal para buscar casas y departamentos, startup hecha con PHP y MySQL.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visitar",
+          url: "https://bienesraices-inicio.vercel.app/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/food.svg").default,
+      projectName: "Quiosco App",
+      projectDesc: "Aplicación para un restaurante, consiste en una aplicación móvil donde puedes elegir la comida, bebida y postre que más te guste.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visitar",
+          url: "https://quiosco-app-sigma.vercel.app/"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/ecommerce.svg").default,
+      projectName: "Ecommerce",
+      projectDesc: "Tienda en línea con componentes importantes como lo son métodos de pago, formularios, buscador, sideBar, galería de las imágenes de los productos, SEO y SEM.",
+      footerLink: [
+        {
+          name: "Visitar",
+          url: "https://ap-ocshop.myshopify.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/bitcoin.svg").default,
+      projectName: "Cripto Cotizador",
+      projectDesc: "Cotiza en tiempo real las criptomonedas más relevantes al momento",
+      footerLink: [
+        {
+          name: "Visitar",
+          url: "https://vite-project-dusky.vercel.app/"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -246,59 +272,27 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
+  title: emoji("Logros y Certificaciones 🏆 "),
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "IBM",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Certificaciones y competencias",
+      image: require("./assets/images/ibm.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+       
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Microsoft",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+        "Certificaciones",
+      image: require("./assets/images/micro.png"),
+      imageAlt: "Microsoft",
+      footerLink: []
     },
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -324,7 +318,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false// Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +337,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,22 +350,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contáctame ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Guadalajara, Jalisco, México",
+  number: "+52-3321235662",
+  email_address: "jccamposrz@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false// Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
@@ -388,9 +382,9 @@ export {
   openSource,
   bigProjects,
   achievementSection,
+  podcastSection,
   blogSection,
   talkSection,
-  podcastSection,
   contactInfo,
   twitterDetails,
   isHireable

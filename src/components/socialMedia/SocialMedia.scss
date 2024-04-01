@@ -28,6 +28,10 @@
   transition: 0.2s ease-in;
 }
 
+.whatsapp i {
+  background-color: $whatsapp;
+}
+
 .facebook i {
   background-color: $faceBook;
 }
@@ -70,6 +74,7 @@
 
 /* Hover Transition */
 .twitter i:hover,
+.whatsapp i:hover,
 .google i:hover,
 .gitlab i:hover,
 .github i:hover,
