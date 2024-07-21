@@ -136,7 +136,7 @@ const educationInfo = {
     },
     {
       schoolName: "ICIAMEX",
-      logo: require("./assets/images/iciamex.png"),
+      logo: require("./assets/images/iciamex.jpeg"),
       subHeader: "Desarrollo de Página Web",
       duration: "Enero 2024 - Presente",
     }
@@ -232,13 +232,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/food.svg").default,
-      projectName: "Quiosco App",
-      projectDesc: "Aplicación para un restaurante, consiste en una aplicación móvil donde puedes elegir la comida, bebida y postre que más te guste.",
+      image: require("./assets/images/website.svg").default,
+      projectName: "Sitio web Iciamex",
+      projectDesc: "Sitio web creado para una empresa dedicada a la fabricación de bandas transportadoras, mobiliario en acero inoxidable, maquinados, plataformas y grúas de elevación, enfocado en la automatización industrial.",
       footerLink: [
         {
           name: "Visitar",
-          url: "https://quiosco-app-sigma.vercel.app/"
+          url: "https://www.iciamex.com/"
         }
       ]
     },
