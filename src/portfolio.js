@@ -234,7 +234,7 @@ const bigProjects = {
     {
       image: require("./assets/images/website.svg").default,
       projectName: "Sitio web Iciamex",
-      projectDesc: "Sitio web creado para una empresa dedicada a la fabricación de bandas transportadoras, mobiliario en acero inoxidable, maquinados, plataformas y grúas de elevación, enfocado en la automatización industrial.",
+      projectDesc: "Sitio web creado para una empresa dedicada a la fabricación de bandas transportadoras, mobiliario en acero inoxidable, maquinados, plataformas y grúas de elevación, enfocada en la automatización industrial.",
       footerLink: [
         {
           name: "Visitar",
