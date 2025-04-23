@@ -62,6 +62,10 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: "figma",
+      fontAwesomeClassname: "fab fa-figma"
+    },
+    {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
@@ -74,7 +78,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-sass"
     },
     {
-      skillName: "JavaScript",
+      skillName: "javascript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
@@ -123,21 +127,21 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Emery Mark",
-      logo: require("./assets/images/emery.jpg"),
-      subHeader: "Desarrrollo de Software Personalizado y Aplicación Web",
-      duration: "Septiembre 2023 - Presente",
+      schoolName: "ARIOAC",
+      logo: require("./assets/images/arioac.jpg"),
+      subHeader: "Desarrrollo de página web",
+      duration: "Septiembre 2024 - Presente",
     },
     {
-      schoolName: "Coffee Point",
-      logo: require("./assets/images/coffe.png"),
-      subHeader: "Desarrollo de Aplicación Móvil",
-      duration: "Febrero 2023 - Presente",
+      schoolName: "GO CONSULTING",
+      logo: require("./assets/images/go.jpg"),
+      subHeader: "Desarrollo de página web",
+      duration: "Febrero 2024 - Presente",
     },
     {
       schoolName: "ICIAMEX",
       logo: require("./assets/images/iciamex.jpeg"),
-      subHeader: "Desarrollo de Página Web",
+      subHeader: "Desarrollo de página y aplicación web",
       duration: "Enero 2024 - Presente",
     }
   ]
@@ -222,7 +226,7 @@ const bigProjects = {
     {
       image: require("./assets/images/house.svg").default,
       projectName: "Startup Real Estate",
-      projectDesc: "Página web para industría del sector inmobiliario, ideal para buscar casas y departamentos, startup hecha con PHP y MySQL.",
+      projectDesc: "Startup inmobiliaria, plataforma web en PHP y MySQL para la búsqueda de casas y departamentos.",
       footerLink: [
         {
           name: "Visitar",
@@ -234,7 +238,7 @@ const bigProjects = {
     {
       image: require("./assets/images/website.svg").default,
       projectName: "Sitio web Iciamex",
-      projectDesc: "Sitio web creado para una empresa dedicada a la fabricación de bandas transportadoras, mobiliario en acero inoxidable, maquinados, plataformas y grúas de elevación, enfocada en la automatización industrial.",
+      projectDesc: "Sitio web diseñado para una empresa especializada en la fabricación de bandas transportadoras, mobiliario de acero inoxidable, piezas maquinadas, plataformas y grúas de elevación, con un enfoque integral en soluciones de automatización industrial.",
       footerLink: [
         {
           name: "Visitar",
@@ -245,7 +249,7 @@ const bigProjects = {
     {
       image: require("./assets/images/ecommerce.svg").default,
       projectName: "Ecommerce",
-      projectDesc: "Tienda en línea con componentes importantes como lo son métodos de pago, formularios, buscador, sideBar, galería de las imágenes de los productos, SEO y SEM.",
+      projectDesc: "Tienda online con pasarelas de pago, formularios, buscador, sidebar, galería de productos y optimización SEO/SEM.",
       footerLink: [
         {
           name: "Visitar",
@@ -256,7 +260,7 @@ const bigProjects = {
     {
       image: require("./assets/images/bitcoin.svg").default,
       projectName: "Cripto Cotizador",
-      projectDesc: "Cotiza en tiempo real las criptomonedas más relevantes al momento",
+      projectDesc: "App que muestra en tiempo real las cotizaciones de las criptomonedas más relevantes.",
       footerLink: [
         {
           name: "Visitar",
@@ -272,24 +276,32 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Logros y Certificaciones 🏆 "),
+  title: emoji("Herramientas 🛠️"),
   achievementsCards: [
     {
-      title: "IBM",
+      title: "Google Analytics",
       subtitle:
-        "Certificaciones y competencias",
-      image: require("./assets/images/ibm.webp"),
+        "Analítica web en tiempo real",
+      image: require("./assets/images/analitycs.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
        
       ]
     },
     {
-      title: "Microsoft",
+      title: "Google Cloud",
       subtitle:
-        "Certificaciones",
-      image: require("./assets/images/micro.png"),
-      imageAlt: "Microsoft",
+        "Servicios gestionados en la nube",
+      image: require("./assets/images/cloud.png"),
+      imageAlt: "Google Cloud",
+      footerLink: []
+    },
+    {
+      title: "Google Ads",
+      subtitle:
+        "Segmentación avanzada para tu audiencia",
+      image: require("./assets/images/ads.png"),
+      imageAlt: "Google Cloud",
       footerLink: []
     },
 
